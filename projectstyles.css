@@ -1,0 +1,52 @@
+.title {
+    orientation: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-family: 'Twister', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #392824;
+}
+
+.links-grid {
+    border: 2px solid #392824;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+a {
+    text-decoration: none;
+    color: #392824;
+}
+
+a:hover {
+    color: #f46c73;
+}
+.nav-link {
+    text-align: center;
+    border-right: 2px solid #392824;
+    font-family: 'Prata', serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.lesson-note {
+    /*background-color: #bfb7b2;*/
+    border: 6px solid #392824;
+    width: 97%;
+    margin: 20px;
+}
+
+.note {
+    font-size: 70px;
+    font-family: 'Twister', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-container {
+    font-family: 'Prata', serif;
+    color: #f46c73;
+    text-align: right;
+}
