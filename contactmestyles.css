@@ -30,31 +30,7 @@ a:hover {
     font-size: 15px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-rows: 1fr 5fr 1fr;
-    grid-template-columns: 60vw 40vw;
-    height: 90vh;
-    width: 100%
-}
-
-.main-container {
-    grid-column: 1/2;
-    grid-row: 2;
-    height: 70vh;
-    background-image: url(assets/100.jpg);
-    background-size: cover;
-    border-radius: 30px;
-    margin-left: 80px;
-}
-
-.sidebar-container {
-    grid-column: 2/3;
-    grid-row: 2;
-    padding: 10px;
-}
-
-.sidebar-title {
+.contact-header {
     font-size: 50px;
     font-weight: bold;
     padding-left: 30px;
@@ -62,9 +38,10 @@ a:hover {
     border-bottom: 5px solid #f46c73;
     font-family: 'Twister', sans-serif;
     color: #392824;
+    text-align: center;
 }
 
-.sidebar-tagline {
+.contact-info {
     font-size: 30px;
     line-height: 35px;
     color: #392824;
@@ -72,4 +49,18 @@ a:hover {
     margin-top: 50px;
     padding-right: 30px;
     width: 475px;
+    text-align: center;
+}
+
+.contact-me {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    border: 2px solid #392824;
+}
+
+.contact-phone {
+    padding-top: 45px;
 }
