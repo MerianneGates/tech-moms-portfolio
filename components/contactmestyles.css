@@ -35,7 +35,7 @@ a:hover {
     font-size: 50px;
     font-weight: bold;
     padding-left: 30px;
-    width: 475px;
+    /*width: 475px;*/
     border-bottom: 5px solid #f46c73;
     font-family: 'Twister', sans-serif;
     color: #392824;
