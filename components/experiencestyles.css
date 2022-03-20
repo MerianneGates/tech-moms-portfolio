@@ -42,7 +42,7 @@ a:hover {
     grid-column: 1/2;
     grid-row: 2;
     height: 70vh;
-    background-image: url(assets/elijah-m-henderson-KoQxb6taoLA-unsplash.jpg);
+    background-image: url(../assets/elijah-m-henderson-KoQxb6taoLA-unsplash.jpg);
     background-size: cover;
     border-radius: 30px;
     margin-left: 80px;
