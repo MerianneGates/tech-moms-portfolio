@@ -74,3 +74,8 @@ a:hover {
     padding-right: 30px;
     width: 475px;
 }
+
+.nav-link i {
+    display: none;
+    color: #f46c73;
+}

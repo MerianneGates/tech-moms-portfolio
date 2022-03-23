@@ -50,3 +50,8 @@ a:hover {
     color: #f46c73;
     text-align: right;
 }
+
+.nav-link i {
+    display: none;
+    color: #f46c73;
+}

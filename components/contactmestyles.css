@@ -65,3 +65,8 @@ a:hover {
 .contact-phone {
     padding-top: 45px;
 }
+
+.nav-link i {
+    display: none;
+    color: #f46c73;
+}

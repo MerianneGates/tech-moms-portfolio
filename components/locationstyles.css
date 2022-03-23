@@ -81,3 +81,8 @@ a:hover {
 .street-address {
     padding-top: 50px;
 }
+
+.nav-link i {
+    display: none;
+    color: #f46c73;
+}
